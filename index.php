@@ -97,8 +97,14 @@
     <main>
         <?php
             foreach ($faq as $element) {?>
-            <h2><?php echo $element['domanda']?></h2>
-            <p><?php echo $element['risposta']?></p>
+                <h2><?php echo $element['domanda']?></h2>
+                <?php
+                    $paragrafo = explode('  ', $element['risposta']);
+                    for ($i=0; $i < count($paragrafo); $i++) { ?>
+                        <p>
+                            <?php echo $paragrafo[$i] ?>
+                        </p>  
+                    <?php } ?>
         <?php } ?>
     </main>
 </body>
