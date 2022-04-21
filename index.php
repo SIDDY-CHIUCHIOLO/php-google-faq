@@ -59,13 +59,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link font font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- link style css -->
     <link rel="stylesheet" href="css/style.css">
     <title>Google faq</title>
 </head>
 <body>
-    <head>
+    <header>
+        <nav>
+            <div>
+                <!-- logo e privacy -->
+                <div class='logo'>
+                    <img src="img/google.png" alt="logo google">
+                    <a href="#">Privacy e termini</a>
+                </div>
 
-    </head>
+                <!-- lista link -->
+                <ul>
+                    <li><a href="#">Introduzione</a></li>    
+                    <li><a href="">Norme sulla privacy</a> </li>
+                    <li><a href="">Termini di servizio</a></li>
+                    <li><a href="">Tecnologie</a></li>
+                    <li><a href="">Domande frequenti</a></li>
+                </ul>
+            </div>
+
+            <!-- icone -->
+            <div>
+                <i class="fas fa-th"></i>
+                <h3 class='my-user'>S</h3>
+            </div>
+        </nav>
+    </header>
     <main>
         <?php
             foreach ($faq as $element) {?>

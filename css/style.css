@@ -8,6 +8,66 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    height: 100px;
+    padding: 1rem;
+    color: #5f6368;
+    border-bottom: #b5b5b6 solid 1px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+header .my-user{
+    background-color: rgb(47, 0, 155);
+    padding: 0.6rem 0.8rem;
+    border-radius: 50%;
+    color: white;
+    display: inline;
+}
+
+header div.logo{
+    padding-bottom: 1rem;
+}
+
+header img{
+    width: 80px;
+    vertical-align: middle;  
+}
+
+header a{
+    display: inline;
+    color: #5f6368;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+header ul li a{
+    font-size: 1rem;
+}
+
+header ul li a:hover{
+    color: blue;
+    padding-bottom: 1rem;
+    border-bottom: blue solid 5px;
+}
+
 main{
     margin: 0 auto;
     width: 60%;
