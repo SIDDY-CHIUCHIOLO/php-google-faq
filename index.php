@@ -59,15 +59,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Google faq</title>
 </head>
 <body>
-    <div>
+    <head>
+
+    </head>
+    <main>
         <?php
             foreach ($faq as $element) {?>
-            <h1><?php echo $element['domanda']?></h1>
+            <h2><?php echo $element['domanda']?></h2>
             <p><?php echo $element['risposta']?></p>
-            <?php } ?>
-    </div>
+        <?php } ?>
+    </main>
 </body>
 </html>
